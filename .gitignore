@@ -1,0 +1,46 @@
+# Python virtual environment
+venv/
+.env
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Logs and cache
+logs/
+*.log
+*.out
+*.err
+
+# Database files
+db.sqlite3
+*.db
+*.sqlite
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker files
+*.tar
+docker-compose.override.yml
+
+# Bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Test and coverage files
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# FastAPI-specific
+instance/
